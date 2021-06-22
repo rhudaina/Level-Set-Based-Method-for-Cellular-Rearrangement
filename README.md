@@ -10,6 +10,7 @@ Two things to note, the '+' in "+Quandl" is important in the folder name. It tel
 
 ### Dependencies ###
 
+This code is created with:
 * [GNU gcc compiler](https://gcc.gnu.org/install/index.html)
 * [FFTW](http://www.fftw.org/download.html)
 * [MATLAB](https://www.mathworks.com/products/get-matlab.html)
@@ -29,7 +30,7 @@ Two things to note, the '+' in "+Quandl" is important in the folder name. It tel
 
 ### Copyright ###
 
-Copyright (c) [2021] [Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi]
+Copyright (c) 2021 Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
 
 
 ### License ###
