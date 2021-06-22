@@ -1,7 +1,5 @@
 # Level Set-Based Method for Cellular Rearrangement [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/LICENSE)
 
-License: MIT
-
 ## Installation ##
 
 Download the folder "+Quandl" into the directory of your choice. Then within MATLAB go to file >> Set path... and add the directory containing "+Quandl" to the list (if it isn't already). That's it.
