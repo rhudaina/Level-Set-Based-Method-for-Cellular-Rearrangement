@@ -29,7 +29,7 @@ Two things to note, the '+' in "+Quandl" is important in the folder name. It tel
 
 ### Copyright ###
 
-Copyright 2021 Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
+Copyright (c) [2021] [Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi]
 
 
 ### License ###
