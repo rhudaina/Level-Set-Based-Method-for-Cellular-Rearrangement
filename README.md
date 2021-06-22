@@ -23,11 +23,11 @@ Unzip the package and place it in the same directory as +Quandl in the folder +u
 * Return only n number of rows: `mydata = Quandl.get('NSE/OIL','rows',5);`
 
 
-## Copyright
+### Copyright ###
 
 Copyright 2021 Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
 
 
-## License
+### License ###
 
 MIT License. See the LICENSE file for details
