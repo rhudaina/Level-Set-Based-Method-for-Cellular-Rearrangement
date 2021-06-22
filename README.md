@@ -20,5 +20,3 @@ Unzip the package and place it in the same directory as +Quandl in the folder +u
 * Frequency Change: `mydata = Quandl.get('NSE/OIL", 'collapse','annual');` ("weekly"|"monthly"|"quarterly"|"annual")
 * Transformations: `mydata: = Quandl.get('NSE/OIL','transformation','rdiff');` ("diff"|"rdiff"|"normalize"|"cumulative")
 * Return only n number of rows: `mydata = Quandl.get('NSE/OIL','rows',5);`
-
-
