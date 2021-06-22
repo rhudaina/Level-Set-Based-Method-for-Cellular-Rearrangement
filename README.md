@@ -10,7 +10,7 @@ Two things to note, the '+' in "+Quandl" is important in the folder name. It tel
 
 ### Dependencies ###
 
-* The GNU gfortran compiler https://gcc.gnu.org/install/index.html
+* The GNU gcc compiler https://gcc.gnu.org/install/index.html
 * FFTW http://www.fftw.org/download.html
 * MATLAB https://www.mathworks.com/products/get-matlab.html
 
