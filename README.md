@@ -13,3 +13,12 @@ Two things to note, the '+' in "+Quandl" is important in the folder name. It tel
 This package now REQUIRES urlread2. It can be found [here](http://www.mathworks.com/matlabcentral/fileexchange/35693-urlread2).
 
 Unzip the package and place it in the same directory as +Quandl in the folder +urlread2.
+
+### Parameters ###
+
+* Date truncation: `mydata = Quandl.get('NSE/OIL', 'start_date','yyyy-mm-dd','end_date','yyyy-mm-dd');`
+* Frequency Change: `mydata = Quandl.get('NSE/OIL", 'collapse','annual');` ("weekly"|"monthly"|"quarterly"|"annual")
+* Transformations: `mydata: = Quandl.get('NSE/OIL','transformation','rdiff');` ("diff"|"rdiff"|"normalize"|"cumulative")
+* Return only n number of rows: `mydata = Quandl.get('NSE/OIL','rows',5);`
+
+
