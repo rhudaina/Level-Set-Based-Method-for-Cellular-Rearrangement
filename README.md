@@ -10,9 +10,13 @@ Two things to note, the '+' in "+Quandl" is important in the folder name. It tel
 
 ### Dependencies ###
 
-This package now REQUIRES MATLAB. It can be found [here](http://www.mathworks.com/matlabcentral/fileexchange/35693-urlread2).
+* The GNU gfortran compiler https://gcc.gnu.org/install/index.html
+* FFTW http://www.fftw.org/download.html
+* MATLAB https://www.mathworks.com/products/get-matlab.html
 
-Unzip the package and place it in the same directory as +Quandl in the folder +urlread2.
+<!-- This package now REQUIRES MATLAB. It can be found [here](http://www.mathworks.com/matlabcentral/fileexchange/35693-urlread2). -->
+
+<!-- Unzip the package and place it in the same directory as +Quandl in the folder +urlread2. -->
 
 
 ### Parameters ###
