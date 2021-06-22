@@ -1,4 +1,4 @@
-# Level Set-Based Method for Cellular Rearrangement [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/LICENSE)
+# Level Set-Based Method for Cellular Rearrangement [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/LICENSE)
 
 ## Installation ##
 
@@ -8,7 +8,7 @@ Two things to note, the '+' in "+Quandl" is important in the folder name. It tel
 
 ### Dependencies ###
 
-This package now REQUIRES urlread2. It can be found [here](http://www.mathworks.com/matlabcentral/fileexchange/35693-urlread2).
+This package now REQUIRES MATLAB. It can be found [here](http://www.mathworks.com/matlabcentral/fileexchange/35693-urlread2).
 
 Unzip the package and place it in the same directory as +Quandl in the folder +urlread2.
 
