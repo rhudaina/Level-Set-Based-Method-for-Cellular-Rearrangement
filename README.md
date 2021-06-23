@@ -18,7 +18,7 @@ This source code was created with and requires the following.
 
 ## Getting Started ##
 
-Open a terminal window, access the subfolder `/code`, and execute the following commands.
+Open a terminal window, access subfolder `/code`, and execute the following commands.
 ```
 bash run.sh
 matlab -nodisplay -r "addpath(genpath('code')); generate_result"
@@ -28,7 +28,7 @@ If the last command does not work, run the following script within MATLAB.
 ```
 generate_result.m
 ```
-The resulting movie is saved explicitly to the subfolder `/results`. That's it.
+The resulting movie is saved explicitly to subfolder `/results`. That's it.
 
 
 ### Initial Configuration ###
