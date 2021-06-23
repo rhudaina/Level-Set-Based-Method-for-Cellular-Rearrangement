@@ -18,17 +18,18 @@ This source code was created with and requires the following.
 
 ## Getting Started ##
 
-Open a terminal window and execute the following commands.
+Open a terminal window, go subfolder `/code`, and execute the following commands.
 
-    cd code
+```
     bash run.sh
     matlab -nodisplay -r "addpath(genpath('code')); generate_result"
+```
     
 If the last command does not work, run the following script within MATLAB.
 
     generate_result.m
 
-Simulation movie is saved explicitly to '/results' That's it.
+Simulation movie is saved explicitly to `/results`. That's it.
 
 
 ### Initial Configuration ###
