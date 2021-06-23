@@ -31,11 +31,11 @@ If the last command does not work, run the following script within MATLAB.
 That's it.
 
 
-## Initial Configuration ##
+### Initial Configuration ###
 
 
 
-## Parameters ##
+### Parameters ###
 
 * Date truncation: `mydata = Quandl.get('NSE/OIL', 'start_date','yyyy-mm-dd','end_date','yyyy-mm-dd');`
 * Frequency Change: `mydata = Quandl.get('NSE/OIL", 'collapse','annual');` ("weekly"|"monthly"|"quarterly"|"annual")
