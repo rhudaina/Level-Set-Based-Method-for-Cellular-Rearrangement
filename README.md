@@ -31,6 +31,10 @@ generate_result.m
 ```
  That's it.
 
+## Setup ##
+
+To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `initconfig.txt` accordingly.
+
 ### Parameters ###
 
 * `$Dimension` : 
