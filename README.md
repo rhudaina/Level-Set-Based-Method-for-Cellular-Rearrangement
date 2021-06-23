@@ -28,7 +28,7 @@ If the last command does not work, run the following script within MATLAB.
 
     generate_result.m
 
-Simulation movie is saved explicitly to /results That's it.
+Simulation movie is saved explicitly to '/results' That's it.
 
 
 ### Initial Configuration ###
