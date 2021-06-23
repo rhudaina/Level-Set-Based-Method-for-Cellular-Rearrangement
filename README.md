@@ -23,7 +23,7 @@ Open a terminal window, access subfolder `/code`, and execute the following comm
 bash run.sh
 ```
 The resulting movie `simulation.mp4` should be saved explicitly to subfolder `/results`.
-If the last command does not work, run the following script within MATLAB.
+If the said movie file does not exist, run the following script within MATLAB.
 ```
 generate_result.m
 ```
