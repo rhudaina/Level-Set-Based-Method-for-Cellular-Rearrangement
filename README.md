@@ -37,16 +37,18 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 
 ### Parameters ###
 
-* `$Dimension` : 
-* `$NodesByRow` : number of nodes per row
-* `$NodesByCol` : number of nodes per column 
-* `$NumberStages` : number of stages that interfacial tensions (sigma) changes
+* `$Dimension` : number of dimensions to specify the location of cell-cell junctions
+* `$NodesByRow` : number of nodes per row in domain discretization
+* `$NodesByCol` : number of nodes per column in domain discretization
+* `$NumberStages` : number of stages at which interfacial tensions (sigmas) changes 
 * `$NbStepsPerStage` : number of time steps per stage
 * `$TimeStepSize` : time step size
 * `$NumberCells` : number of cells in a given cell aggregate
 * `$NumberTypes` : number of cell types in a given cell aggregate
 * `$NbCellsPerType` : an array containing the number of cells for each cell type
 * `$SigmaPerStage` : 
+   For example:
+   
 * `$Fluctuation` : 
 * `$ErrorTolerance` : 
 * `$EpsilonScalingFactor` :
