@@ -32,7 +32,7 @@ The resulting movie is saved explicitly to subfolder `/results`. That's it.
 
 ### Parameters ###
 
-* Date truncation: `mydata = Quandl.get('NSE/OIL', 'start_date','yyyy-mm-dd','end_date','yyyy-mm-dd');`
+* `$Dimension` 
 * Frequency Change: `mydata = Quandl.get('NSE/OIL", 'collapse','annual');` ("weekly"|"monthly"|"quarterly"|"annual")
 * Transformations: `mydata: = Quandl.get('NSE/OIL','transformation','rdiff');` ("diff"|"rdiff"|"normalize"|"cumulative")
 * Return only n number of rows: `mydata = Quandl.get('NSE/OIL','rows',5);`
