@@ -5,11 +5,9 @@
 
 Clone the repository
  
-    git clone https://github.com/your_username_/Project-Name.git
+    git clone https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement.git
 
-
-Download this into the directory of your choice. 
-To get started:
+or download zip into a directory of your choice.
 
     bash run.sh
     matlab -nodisplay -r "addpath(genpath('code')); generate_result"
