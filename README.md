@@ -18,17 +18,18 @@ This code is created with:
 
 ## Getting Started ##
 
-Open terminal and go to your directory.
+Open a terminal window and execute the following commands.
 
     cd code
     bash run.sh
     matlab -nodisplay -r "addpath(genpath('code')); generate_result"
     
-If matlab is not linked in the CLI, do the following. Within MATLAB go to code >>
+If the last command does not work, run the following script within MATLAB.
 
     generate_result.m
 
 That's it.
+
 
 ## Initial Configuration ##
 
