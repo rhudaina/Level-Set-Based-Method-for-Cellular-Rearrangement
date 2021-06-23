@@ -20,7 +20,7 @@ This code is created with:
 <!-- Unzip the package and place it in the same directory as +Quandl in the folder +urlread2. -->
 
 
-### Parameters ###
+## Parameters ##
 
 * Date truncation: `mydata = Quandl.get('NSE/OIL', 'start_date','yyyy-mm-dd','end_date','yyyy-mm-dd');`
 * Frequency Change: `mydata = Quandl.get('NSE/OIL", 'collapse','annual');` ("weekly"|"monthly"|"quarterly"|"annual")
@@ -28,7 +28,7 @@ This code is created with:
 * Return only n number of rows: `mydata = Quandl.get('NSE/OIL','rows',5);`
 
 
-### Copyright ###
+## Copyright ##
 
 Copyright (c) 2021 Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
 
