@@ -45,10 +45,8 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 * `$TimeStepSize` : time step size
 * `$NumberCells` : number of cells in a given cell aggregate
 * `$NumberTypes` : number of cell types in a given cell aggregate
-* `$NbCellsPerType` : an array containing the number of cells for each cell type
-* `$SigmaPerStage` : 
-   For example:
-   
+* `$NbCellsPerType` : a row array containing the number of cells for each cell type
+* `$SigmaPerStage` : a 2D array where each row indicates sigma values for each type of cell-cell junction (e.g., for a configuration of two cell types, we have BB BR RR). The first row indicates the initial sigma values, and the succeeding rows the final sigma values at each stage. A configuration with 2 cell types and 3 stages, would result in a 4x3-array.
 * `$Fluctuation` : 
 * `$ErrorTolerance` : 
 * `$EpsilonScalingFactor` :
