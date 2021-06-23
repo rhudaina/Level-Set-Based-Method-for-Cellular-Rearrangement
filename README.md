@@ -10,7 +10,7 @@ or download zip and unzip the repository into a directory of your choice.
 
 ### Dependencies ###
 
-This code is created with:
+This source code is created with:
 * [GNU gcc compiler](https://gcc.gnu.org/install/index.html)
 * [FFTW](http://www.fftw.org/download.html)
 * [MATLAB](https://www.mathworks.com/products/get-matlab.html)
