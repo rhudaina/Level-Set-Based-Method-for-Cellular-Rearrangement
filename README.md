@@ -25,7 +25,7 @@ Open a terminal window, access subfolder `/code`, and execute the following comm
 bash run.sh
 ```
 The resulting movie `simulation.mp4` should be saved explicitly to subfolder `/results`.
-If the said movie file does not exist, run the following script within MATLAB.
+If this does not exist, run the following script within MATLAB.
 ```
 generate_result.m
 ```
@@ -34,14 +34,28 @@ generate_result.m
 ### Parameters ###
 
 * `$Dimension` 
-* Frequency Change: `mydata = Quandl.get('NSE/OIL", 'collapse','annual');` ("weekly"|"monthly"|"quarterly"|"annual")
-* Transformations: `mydata: = Quandl.get('NSE/OIL','transformation','rdiff');` ("diff"|"rdiff"|"normalize"|"cumulative")
-* Return only n number of rows: `mydata = Quandl.get('NSE/OIL','rows',5);`
+* `$NodesByRow`
+* `$NodesByCol`
+* `$NumberStages`
+* `$NbStepsPerStage`
+* `$TimeStepSize`
+* `$NumberCells`
+* `$NumberTypes`
+* `$NbCellsPerType`
+* `$SigmaPerStage`
+* `$Fluctuation`
+* `$ErrorTolerance`
+* `$EpsilonScalingFactor`
+* `$InitialEpsilonValue`
+* `$NumberLocalNodes`
+* `$CellLabel`
+* `$DisplayType`
+* `$Color`
 
 ### Initial Configuration ###
 
-
-
+* `$TypeOfCells`
+* `$NodeCellRefNum`
 
 ## Copyright ##
 
