@@ -33,29 +33,29 @@ generate_result.m
 
 ### Parameters ###
 
-* `$Dimension` 
-* `$NodesByRow`
-* `$NodesByCol`
-* `$NumberStages`
-* `$NbStepsPerStage`
-* `$TimeStepSize`
-* `$NumberCells`
-* `$NumberTypes`
-* `$NbCellsPerType`
-* `$SigmaPerStage`
-* `$Fluctuation`
-* `$ErrorTolerance`
-* `$EpsilonScalingFactor`
-* `$InitialEpsilonValue`
-* `$NumberLocalNodes`
-* `$CellLabel`
-* `$DisplayType`
-* `$Color`
+* `$Dimension` : 
+* `$NodesByRow` : number of nodes per row
+* `$NodesByCol` : number of nodes per column 
+* `$NumberStages` : number of stages that interfacial tensions (sigma) changes
+* `$NbStepsPerStage` : number of time steps per stage
+* `$TimeStepSize` : time step size
+* `$NumberCells` : number of cells in a given cell aggregate
+* `$NumberTypes` : number of cell types in a given cell aggregate
+* `$NbCellsPerType` : an array containing the number of cells for each cell type
+* `$SigmaPerStage` : 
+* `$Fluctuation` : 
+* `$ErrorTolerance` : 
+* `$EpsilonScalingFactor` :
+* `$InitialEpsilonValue` :
+* `$NumberLocalNodes` :
+* `$CellLabel` :
+* `$DisplayType` :
+* `$Color` : 
 
 ### Initial Configuration ###
 
-* `$TypeOfCells`
-* `$NodeCellRefNum`
+* `$TypeOfCells` : a 
+* `$NodeCellRefNum` : a column array containing cell reference number of each node
 
 ## Copyright ##
 
