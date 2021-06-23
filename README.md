@@ -21,14 +21,13 @@ This source code was created with and requires the following.
 Open a terminal window, access subfolder `/code`, and execute the following commands.
 ```
 bash run.sh
-matlab -nodisplay -r "addpath(genpath('code')); generate_result"
 ```
-    
+The resulting movie `simulation.mp4` should be saved explicitly to subfolder `/results`.
 If the last command does not work, run the following script within MATLAB.
 ```
 generate_result.m
 ```
-The resulting movie is saved explicitly to subfolder `/results`. That's it.
+ That's it.
 
 ### Parameters ###
 
