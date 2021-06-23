@@ -2,8 +2,22 @@
 
 
 ## Installation ##
+1. Clone this repository
+ 
+    git clone https://github.com/your_username_/Project-Name.git
+4. 
 
-Download the folder "+Quandl" into the directory of your choice. Then within MATLAB go to file >> Set path... and add the directory containing "+Quandl" to the list (if it isn't already). That's it.
+Download this into the directory of your choice. 
+To get started:
+
+    bash run.sh
+    matlab -nodisplay -r "addpath(genpath('code')); generate_result"
+    
+Changes can be automatically built using watch:
+
+    watch make
+
+Then within MATLAB go to file >> Set path... and add the directory containing "+Quandl" to the list (if it isn't already). That's it.
 
 Two things to note, the '+' in "+Quandl" is important in the folder name. It tells Matlab to recognize get.m and auth.m as part of the Quandl package. Secondly, make sure you don't add the "+Quandl" folder in set path. You should be adding the folder that contains it.
 
