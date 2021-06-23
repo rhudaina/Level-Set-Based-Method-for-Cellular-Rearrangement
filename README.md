@@ -1,25 +1,12 @@
 # Level Set-Based Method for Cellular Rearrangement [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/LICENSE)
 
-
 ## Installation ##
 
 Clone the repository
  
     git clone https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement.git
 
-or download zip into a directory of your choice.
-
-    bash run.sh
-    matlab -nodisplay -r "addpath(genpath('code')); generate_result"
-    
-Changes can be automatically built using watch:
-
-    watch make
-
-Then within MATLAB go to file >> Set path... and add the directory containing "+Quandl" to the list (if it isn't already). That's it.
-
-Two things to note, the '+' in "+Quandl" is important in the folder name. It tells Matlab to recognize get.m and auth.m as part of the Quandl package. Secondly, make sure you don't add the "+Quandl" folder in set path. You should be adding the folder that contains it.
-
+or download zip and unzip the repository into a directory of your choice.
 
 ### Dependencies ###
 
@@ -28,9 +15,23 @@ This code is created with:
 * [FFTW](http://www.fftw.org/download.html)
 * [MATLAB](https://www.mathworks.com/products/get-matlab.html)
 
-<!-- This package now REQUIRES MATLAB. It can be found [here](http://www.mathworks.com/matlabcentral/fileexchange/35693-urlread2). -->
 
-<!-- Unzip the package and place it in the same directory as +Quandl in the folder +urlread2. -->
+## Getting Started ##
+
+Open terminal and go to your directory.
+
+    cd code
+    bash run.sh
+    matlab -nodisplay -r "addpath(genpath('code')); generate_result"
+    
+If matlab is not linked in the CLI, do the following. Within MATLAB go to code >>
+
+    generate_result.m
+
+That's it.
+
+## Initial Configuration ##
+
 
 
 ## Parameters ##
