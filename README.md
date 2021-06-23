@@ -21,8 +21,8 @@ This source code was created with and requires the following.
 Open a terminal window, go subfolder `/code`, and execute the following commands.
 
 ```
-    bash run.sh
-    matlab -nodisplay -r "addpath(genpath('code')); generate_result"
+bash run.sh
+matlab -nodisplay -r "addpath(genpath('code')); generate_result"
 ```
     
 If the last command does not work, run the following script within MATLAB.
