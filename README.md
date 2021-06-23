@@ -2,10 +2,11 @@
 
 
 ## Installation ##
-1. Clone this repository
+
+Clone the repository
  
     git clone https://github.com/your_username_/Project-Name.git
-4. 
+
 
 Download this into the directory of your choice. 
 To get started:
