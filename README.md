@@ -20,7 +20,7 @@ This source code was created with and requires the following.
 
 ## Getting Started ##
 
-Open a terminal window, access subfolder `/code`, and execute the following commands.
+Open a terminal window, access subfolder `/code`, and execute the following command.
 ```
 bash run.sh
 ```
