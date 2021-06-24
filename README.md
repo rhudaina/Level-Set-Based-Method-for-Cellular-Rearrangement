@@ -54,11 +54,11 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 * `$NumberLocalNodes` : number of nodes defining discrete radius of a square neighborhood about each node
 * `$CellLabel` : a string where each character labels each cell type (e.g., for a configuration of two cell types, say Blue and Red, we have BR)
 * `$DisplayType` : use `adhsion` if sigmas are taken as reciprocals of cell-cell adhesion values; otherwise, use `tension` to display sigma values
-* `$Color` : a row array where 
+* `$Color` : a row array composed of 3-element row blocks corresponding to RGB colors (0-255) in a 0 to 1 scale (e.g., for a configuration of two cell types, say Blue and Red, we have 0 0 1 1 0 0)
 
 ### Initial Configuration ###
 
-* `$TypeOfCells` : a 
+* `$TypeOfCells` : a 2D array where each row indicates the cell reference number followed by the reference number of its type
 * `$NodeCellRefNum` : a column array containing cell reference number of each node
 
 ## Copyright ##
