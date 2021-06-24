@@ -40,21 +40,21 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 * `$Dimension` : number of dimensions to specify the location of cell-cell junctions
 * `$NodesByRow` : number of nodes per row in domain discretization
 * `$NodesByCol` : number of nodes per column in domain discretization
-* `$NumberStages` : number of stages at which interfacial tensions (sigmas) changes 
+* `$NumberStages` : number of stages at which sigmas (weights at cell-cell junctions) changes 
 * `$NbStepsPerStage` : number of time steps per stage
 * `$TimeStepSize` : time step size
 * `$NumberCells` : number of cells in a given cell aggregate
 * `$NumberTypes` : number of cell types in a given cell aggregate
 * `$NbCellsPerType` : a row array containing the number of cells for each cell type
-* `$SigmaPerStage` : a 2D array where each row indicates sigma values for each type of cell-cell junction (e.g., for a configuration of two cell types, we have BB BR RR). The first row indicates the initial sigma values, and the succeeding rows the final sigma values at each stage. A configuration with 2 cell types and 3 stages, would result in a 4x3-array.
-* `$Fluctuation` : 
-* `$ErrorTolerance` : 
-* `$EpsilonScalingFactor` :
-* `$InitialEpsilonValue` :
-* `$NumberLocalNodes` :
-* `$CellLabel` :
-* `$DisplayType` :
-* `$Color` : 
+* `$SigmaPerStage` : a 2D array where each row indicates sigma values for each type of cell-cell junction (e.g., for a configuration of two cell types, say Blue and Red, we have BB BR RR). The first row indicates the initial sigma values, and the succeeding rows the final sigma values at each stage. A configuration with 2 cell types and 3 stages, would result in a 4x3-array.
+* `$Fluctuation` : range of fluctuation in sigmas (weights at cell-cell junctions)
+* `$ErrorTolerance` : error tolerance in auction dynamics
+* `$EpsilonScalingFactor` : epsilon scaling factor in auction dynamics
+* `$InitialEpsilonValue` : initial epsilon value in auction dynamics
+* `$NumberLocalNodes` : number of nodes defining discrete radius of a square neighborhood about each node
+* `$CellLabel` : a string where each character labels each cell type (e.g., for a configuration of two cell types, say Blue and Red, we have BR)
+* `$DisplayType` : use `adhsion` if sigmas are taken as reciprocals of cell-cell adhesion values; otherwise, use `tension` to display sigma values
+* `$Color` : a row array where 
 
 ### Initial Configuration ###
 
