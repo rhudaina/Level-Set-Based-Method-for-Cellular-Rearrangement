@@ -37,7 +37,7 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 
 ### Parameters ###
 
-* `$Dimension` : number of dimensions to specify the location of cell-cell junctions
+* `$Dimension` : refers to whether a given cell aggregate is either `2` or `3`-dimensional 
 * `$NodesByRow` : number of nodes per row in domain discretization
 * `$NodesByCol` : number of nodes per column in domain discretization
 * `$NumberStages` : number of stages at which sigmas (weights at cell-cell junctions) changes 
