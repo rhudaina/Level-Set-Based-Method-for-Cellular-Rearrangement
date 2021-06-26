@@ -58,7 +58,7 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 
 ### Initial Configuration ###
 
-![alt text](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/nodereference.png?raw=true)
+![alt text](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/nodereference.png)
 
 * `$TypeOfCells` : a 2D array where each row indicates the cell reference number followed by the reference number of its type
 * `$NodeCellRefNum` : a column array containing cell reference number of each node
