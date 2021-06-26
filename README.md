@@ -19,12 +19,6 @@ This source code was created on macOS Version 10.15.5 and requires the following
 
 These dependencies can also be installed on a Windows-based and Unix-based device. 
 
-### Code availability ###
-
-All codes used to obtain the level set based simulation data and to conduct numerical analysis presented in our article "A level set-based approach for modeling cellular rearrangements in tissue morphogenesis" are fully available on Code Ocean DOI: 10.24433/CO.7605938.v1
-
-
-
 ## Getting Started ##
 
 Open a terminal window, access subfolder `/code`, and execute the following command.
@@ -86,3 +80,5 @@ MIT License. See the LICENSE file for details
 
 "A level set-based approach for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
 (Preprint available [10.21203/rs.3.rs-43983/v2](https://www.researchsquare.com/article/rs-43983/v2))
+
+Reproducible results for level set-based simulations and conduct numerical analysis can be found on Code Ocean using this DOI: 10.24433/CO.7605938.v1 and , respectively.
