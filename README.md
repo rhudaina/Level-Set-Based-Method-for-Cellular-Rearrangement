@@ -85,4 +85,4 @@ MIT License. See the LICENSE file for details
 ## Reference ##
 
 "A level set-based approach for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
-(Preprint available 10.21203/rs.3.rs-43983/v2)
+(Preprint available [10.21203/rs.3.rs-43983/v2](https://www.researchsquare.com/article/rs-43983/v2))
