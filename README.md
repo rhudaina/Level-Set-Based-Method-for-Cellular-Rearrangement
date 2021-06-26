@@ -17,7 +17,7 @@ This source code was created on macOS Version 10.15.5 and requires the following
 * [FFTW](http://www.fftw.org/download.html) 3.3.9
 * [MATLAB](https://www.mathworks.com/products/get-matlab.html) R2020b
 
-These dependencies can also be installed on a Windows-based and Unix-based device. 
+These dependencies can also be installed on a Windows-based and Unix-based device. Typical install time on a "normal" desktop computer should be around 5-10 minutes.
 
 ## Getting Started ##
 
@@ -25,7 +25,7 @@ Open a terminal window, access subfolder `/code`, and execute the following comm
 ```
 bash run.sh
 ```
-The resulting movie `simulation.mp4` should be saved explicitly to subfolder `/results`.
+The expected output should be a movie file saved explicitly to subfolder `/results` with filename `simulation.mp4`.
 If this does not exist, run the following script within MATLAB.
 ```
 generate_result.m
@@ -66,6 +66,9 @@ For example, consider a cell aggregate with 10x10 resolution below. Here, we lab
 
 <img src="https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/nodereference.png" width="700">
 
+### Run time for demo dataset ###
+
+On a "normal" desktop computer, the expected run time for demo dataset found in subfolder `/data` is around 18~20 seconds to generate the solution set, and around 51~55 seconds to generate the resulting movie file.
 
 ## Copyright ##
 
