@@ -62,8 +62,10 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 * `$NodeCellRefNum` : a column array containing cell reference number of each node
 
 For example, consider a cell aggregate with 10x10 resolution below.
-<img src="https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/nodereference.png" width="500">
 
+<img src="https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/nodereference.png" width="700">
+
+Here, we label 100 nodes from 0 to 99, 4 cells from 0 to 3, and 2 cell types (B=0, R=1).
 
 ## Copyright ##
 
