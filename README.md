@@ -1,6 +1,6 @@
 # Level Set-Based Method for Cellular Rearrangement [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/LICENSE)
 
-This source code executes our proposed level set-based algorithm for realizing cellular rearrangements in various tissue morphological phenomena, e.g., total engulfment, cellular patterning in olfactory and auditory sensory tissues, cell sorting, and 3D cell internalization.
+This source code executes our proposed level set-based algorithm for realizing cellular rearrangements in various tissue morphological phenomena, e.g., total engulfment, cellular patterning in olfactory and auditory sensory tissues, cell sorting, and 3D cell internalization. 
 
 ## Installation ##
 
@@ -12,10 +12,17 @@ or download zip and unzip the repository into a directory of your choice.
 
 ### Dependencies ###
 
-This source code was created with and requires the following.
-* [GNU gcc compiler](https://gcc.gnu.org/install/index.html)
-* [FFTW](http://www.fftw.org/download.html)
-* [MATLAB](https://www.mathworks.com/products/get-matlab.html)
+This source code was created on macOS Version 10.15.5 and requires the following.
+* [GNU gcc compiler](https://gcc.gnu.org/install/index.html) (clang-1200.0.32.21)
+* [FFTW](http://www.fftw.org/download.html) 3.3.9
+* [MATLAB](https://www.mathworks.com/products/get-matlab.html) R2020b
+
+These dependencies can also be installed on a Windows-based and Unix-based device. 
+
+### Code availability ###
+
+All codes used to obtain the level set based simulation data and to conduct numerical analysis presented in our article "A level set-based approach for modeling cellular rearrangements in tissue morphogenesis" are fully available on Code Ocean DOI: 10.24433/CO.7605938.v1
+
 
 
 ## Getting Started ##
@@ -74,3 +81,8 @@ Copyright (c) 2021 Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hide
 ### License ###
 
 MIT License. See the LICENSE file for details
+
+## Reference ##
+
+"A level set-based approach for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
+(Preprint available 10.21203/rs.3.rs-43983/v2)
