@@ -69,6 +69,7 @@ For example, consider a cell aggregate with 9x9 resolution below. Here, we label
 ### Available simulation data ###
 To reproduce a simulation in our manucript, copy `parameters.txt` and `initconfig.txt` from the corresponding subfolder
 * `Engulfment` : Total Engulfment 
+* `OlfactoryE14-WT` : simulation of cellular rearrangements of WT olfactory epithelium using experimentally measured beta-catenin intensities
 
 ## Run time for demo dataset ##
 
