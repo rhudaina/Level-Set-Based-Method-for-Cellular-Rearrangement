@@ -47,22 +47,22 @@ To setup a simulation, access subfolder `/data`, and edit `parameters.txt` and `
 * `$NumberCells` : number of cells in a given cell aggregate
 * `$NumberTypes` : number of cell types in a given cell aggregate
 * `$NbCellsPerType` : a row array containing the number of cells for each cell type
-* `$SigmaPerStage` : a 2D array where each row indicates sigma values for each type of cell-cell junction (e.g., for a configuration of two cell types, say Blue and Red, we have BB BR RR). The first row indicates the initial sigma values, and the succeeding rows the final sigma values at each stage. A configuration with 2 cell types and 3 stages, would result in a 4x3-array.
+* `$SigmaPerStage` : a 2D array where each row indicates sigma values for each type of cell-cell junction (e.g., for a configuration of two cell types, say Blue and Orange, we have BB BO OO). The first row indicates the initial sigma values, and the succeeding rows the final sigma values at each stage. A configuration with 2 cell types and 3 stages, would result in a 4x3-array.
 * `$Fluctuation` : range of fluctuation in sigmas (weights at cell-cell junctions)
 * `$ErrorTolerance` : error tolerance in auction dynamics
 * `$EpsilonScalingFactor` : epsilon scaling factor in auction dynamics
 * `$InitialEpsilonValue` : initial epsilon value in auction dynamics
 * `$NumberLocalNodes` : number of nodes defining discrete radius of a square neighborhood about each node
-* `$CellLabel` : a string where each character labels each cell type (e.g., for a configuration of two cell types, say Blue and Red, we have BR)
+* `$CellLabel` : a string where each character labels each cell type (e.g., for a configuration of two cell types, say Blue and Orange, we have BO)
 * `$DisplayType` : use `adhsion` if sigmas are taken as reciprocals of cell-cell adhesion values; otherwise, use `tension` to display sigma values
-* `$Color` : a row array composed of 3-element row blocks corresponding to RGB colors (0-255) in a 0 to 1 scale (e.g., for a configuration of two cell types, say Blue and Red, we have 0 0 1 1 0 0)
+* `$Color` : a row array composed of 3-element row blocks corresponding to RGB colors (0-255) in a 0 to 1 scale (e.g., for a configuration of two cell types, say Blue and Orange, we have 0 0.4471 0.6980 0.9020 0.6235 0)
 
 ### Initial Configuration ###
 
 * `$TypeOfCells` : a 2D array where each row indicates the cell reference number followed by the reference number of its type
 * `$NodeCellRefNum` : a column array containing cell reference number of each node
 
-For example, consider a cell aggregate with 10x10 resolution below. Here, we label 100 nodes from 0 to 99, 4 cells from 0 to 3, and 2 cell types (B=0, R=1).
+For example, consider a cell aggregate with 9x9 resolution below. Here, we label 81 nodes from 0 to 80, 4 cells from 0 to 3 with 2 cell types (Blue=0, Orange=1).
 
 <img src="https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/nodereference.png" width="700">
 
@@ -81,7 +81,7 @@ MIT License. See the LICENSE file for details
 
 ## Reference ##
 
-"A level set-based approach for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
+"A numerical algorithm for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi
 (Preprint available [10.21203/rs.3.rs-43983/v2](https://www.researchsquare.com/article/rs-43983/v2))
 
 Reproducible results for level set-based simulations and conduct numerical analysis can be found on Code Ocean using this DOI: 10.24433/CO.7605938.v1 and 10.24433/CO.9092704.v1, respectively.
