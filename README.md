@@ -79,7 +79,12 @@ To reproduce a simulation in our manucript, copy `parameters.txt` and `initconfi
 * `sup_PartialMixing` : simulation of partial mixing
 * `sup_PartialSorting` : simulation of partial sorting
 * `sup_StrongSorting` : simulation of strong sorting
-* `sup_Segregated` : checkerboard pattern resulting from a cell aggregate consisting of blue cells expressing nection-2 and N-cadherin and orange cells expressing nectin-2, N-cadherin, and E-cadherin. 
+* `sup_Segregated` : segregated pattern resulting from an aggregate consisting of blue cells expressing nection-2 and N-cadherin and orange cells expressing nectin-2, N-cadherin, and E-cadherin
+* `sup_Checkerboard` : checkerboard pattern resulting from an aggregate consisting of blue cells expressing nection-2 and N-cadherin and orange cells expressing nectin-3 and N-cadherin
+* `sup_Football` : football (kagome) pattern resulting from an aggregate consisting of blue cells expressing nection-2 and N-cadherin and orange cells expressing nectin-3, N-cadherin, and E-cadherin
+* `sup_AuditoryE14-WT` : simulation of developing WT auditory epithelium starting from a biased initial state with no fluctuation
+* `sup_AuditoryE14-WTosc` : simulation of developing WT auditory epithelium starting from a biased initial state with added tension fluctuations of size up to 10%
+* `sup_AuditoryE14-KOosc` : simulation of developing nectin-3 KO auditory epithelium starting from a biased initial state with added tension fluctuations of size up to 10%
 
 ## Run time for demo dataset ##
 
