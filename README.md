@@ -69,8 +69,10 @@ For example, consider a cell aggregate with 9x9 resolution below. Here, we label
 ### Available simulation data ###
 To reproduce a simulation in our manucript, copy `parameters.txt` and `initconfig.txt` from the corresponding subfolder
 * `Engulfment` : total engulfment of a blue cell mass by an orange cell mass
-* `OlfactoryE14-WT` : simulation of cellular rearrangements of WT olfactory epithelium using experimentally measured beta-catenin intensities
-* `OlfactoryE14-KO` : simulation of cellular rearrangements of aN-catenin KO olfactory epithelium using experimentally measured beta-catenin intensities
+* `OlfactoryE14-WT` : simulation of cellular rearrangements of WT olfactory epithelium using experimentally measured β-catenin intensities
+* `OlfactoryE14-KO` : simulation of cellular rearrangements of αN-catenin KO olfactory epithelium using experimentally measured β-catenin intensities
+* `OlfactoryP1-WT` : simulation of a developing olfactory epithelium using hypothetical values of interfacial tensions at postnatal stage
+* 
 
 ## Run time for demo dataset ##
 
