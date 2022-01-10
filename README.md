@@ -85,6 +85,7 @@ To reproduce a simulation in our manucript, copy `parameters.txt` and `initconfi
 * `sup_AuditoryE14-WT` : simulation of developing WT auditory epithelium starting from a biased initial state with no fluctuation
 * `sup_AuditoryE14-WTosc` : simulation of developing WT auditory epithelium starting from a biased initial state with added tension fluctuations of size up to 10%
 * `sup_AuditoryE14-KOosc` : simulation of developing nectin-3 KO auditory epithelium starting from a biased initial state with added tension fluctuations of size up to 10%
+* `sup_Internalization` : three-dimensional cell internalization from an initial cell doublet configuration
 
 ## Run time for demo dataset ##
 
