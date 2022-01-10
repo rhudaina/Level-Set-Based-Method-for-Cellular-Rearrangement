@@ -66,6 +66,10 @@ For example, consider a cell aggregate with 9x9 resolution below. Here, we label
 
 <img src="https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/nodereference.png" width="700">
 
+### Available simulation data ###
+To reproduce a simulation in our manucript, copy `parameters.txt` and `initconfig.txt` from the corresponding subfolder
+* `Engulfment` : Total Engulfment 
+
 ## Run time for demo dataset ##
 
 On a "normal" desktop computer, the expected run time for demo dataset found in subfolder `/data` is around 18-20 seconds to generate the solution set, and around 51-55 seconds to generate the resulting movie file.
