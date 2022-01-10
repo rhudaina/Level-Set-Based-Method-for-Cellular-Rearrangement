@@ -67,7 +67,7 @@ For example, consider a cell aggregate with 9x9 resolution below. Here, we label
 <img src="https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/nodereference.png" width="700">
 
 ### Available simulation data ###
-To reproduce a simulation in our manucript, copy `parameters.txt` and `initconfig.txt` from the corresponding subfolder
+To reproduce a simulation from our manucript, unzip `SimulationData.zip`, then copy `parameters.txt` and `initconfig.txt` from the corresponding subfolder below.
 * `Engulfment` : total engulfment of a blue cell mass by an orange cell mass
 * `OlfactoryE14-WT` : simulation of cellular rearrangements of WT olfactory epithelium using experimentally measured β-catenin intensities
 * `OlfactoryE14-KO` : simulation of cellular rearrangements of αN-catenin KO olfactory epithelium using experimentally measured β-catenin intensities
