@@ -1,0 +1,39 @@
+$Dimension
+2
+$NodesByRow
+500
+$NodesByCol
+500
+$NumberStages
+3
+$NbStepsPerStage
+100
+$TimeStepSize
+0.001
+$NumberCells
+51
+$NumberTypes
+3
+$NbCellsPerType
+10 40 1
+$SigmaPerStage
+1.0 7.5 1.0 7.5 3.5 1.0
+1.0 2.5 1.0 7.5 3.5 1.0
+1.0 2.5 1.0 7.5 3.5 1.0
+1.0 2.5 1.0 7.5 3.5 1.0
+$Fluctuation
+0.0
+$ErrorTolerance
+0.00001
+$EpsilonScalingFactor
+10
+$InitialEpsilonValue
+0.000001
+$NumberLocalNodes
+10
+$CellLabel
+BOG
+$DisplayType
+tension
+$Color
+0 0.4471 0.6980 0.9020 0.6235 0 0.8039 0.8039 0.8039
