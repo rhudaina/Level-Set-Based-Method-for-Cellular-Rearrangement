@@ -30,8 +30,8 @@ $InitialEpsilonValue
 $NumberLocalNodes
 20
 $CellLabel
-BR
+BO
 $DisplayType
 tension
 $Color
-0.463 0.788 0.831 1 0.6 0.6
+0 0.4471 0.6980 0.9020 0.6235 0
