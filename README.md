@@ -72,7 +72,14 @@ To reproduce a simulation in our manucript, copy `parameters.txt` and `initconfi
 * `OlfactoryE14-WT` : simulation of cellular rearrangements of WT olfactory epithelium using experimentally measured β-catenin intensities
 * `OlfactoryE14-KO` : simulation of cellular rearrangements of αN-catenin KO olfactory epithelium using experimentally measured β-catenin intensities
 * `OlfactoryP1-WT` : simulation of a developing olfactory epithelium using hypothetical values of interfacial tensions at postnatal stage
-* 
+* `AuditoryE14-WT` : simulation of cellular rearrangements of WT auditory epithelium in embryonic stage
+* `AuditoryE14-KO` : simulation of cellular rearrangements of nectin-3 KO auditory epithelium in embryonic stage
+* `sup_Wetting` : wetting phenomenon resolved in the numerical implementation of the proposed level set-based method
+* `sup_Nucleation` : nucleation phenomenon resolved in the numerical implementation of the proposed level set-based method
+* `sup_PartialMixing` : simulation of partial mixing
+* `sup_PartialSorting` : simulation of partial sorting
+* `sup_StrongSorting` : simulation of strong sorting
+* `sup_Segregated` : checkerboard pattern resulting from a cell aggregate consisting of blue cells expressing nection-2 and N-cadherin and orange cells expressing nectin-2, N-cadherin, and E-cadherin. 
 
 ## Run time for demo dataset ##
 
