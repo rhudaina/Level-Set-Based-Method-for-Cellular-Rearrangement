@@ -98,4 +98,4 @@ MIT License. See the LICENSE file for details
 
 ## Reference ##
 
-"A numerical algorithm for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi to appear in Communications Biology. Preprint available [doi: 10.21203/rs.3.rs-43983/v2](https://www.researchsquare.com/article/rs-43983/v2)
+"A numerical algorithm for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi to appear in Communications Biology. Preprint available at [doi: 10.21203/rs.3.rs-43983/v2](https://www.researchsquare.com/article/rs-43983/v2)
