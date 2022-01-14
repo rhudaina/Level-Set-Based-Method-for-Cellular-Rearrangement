@@ -1,6 +1,6 @@
 # Level Set-Based Method for Cellular Rearrangement [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement/blob/main/LICENSE)
 
-This source code executes our proposed level set-based algorithm for realizing cellular rearrangements in various tissue morphological phenomena, e.g., total engulfment, cellular patterning in olfactory and auditory sensory tissues, cell sorting, and 3D cell internalization. 
+This code implements our proposed level set-based algorithm for realizing cellular rearrangements in various tissue morphological phenomena, e.g., total engulfment, cellular patterning in olfactory and auditory sensory tissues, cell sorting, and 3D cell internalization.
 
 ## Installation ##
 
@@ -102,4 +102,4 @@ MIT License. See the LICENSE file for details
 
 ## Reference ##
 
-"A numerical algorithm for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi to appear in Communications Biology. (Preprint available [doi: 10.21203/rs.3.rs-43983/v2](https://www.researchsquare.com/article/rs-43983/v2))
+"A numerical algorithm for modeling cellular rearrangements in tissue morphogenesis" by Rhudaina Mohammad, Hideki Murakawa, Karel Svadlenka, and Hideru Togashi to appear in Communications Biology. Preprint available [doi: 10.21203/rs.3.rs-43983/v2](https://www.researchsquare.com/article/rs-43983/v2)
