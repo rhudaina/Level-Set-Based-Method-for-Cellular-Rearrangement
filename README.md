@@ -8,7 +8,7 @@ Clone the repository
  
     git clone https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement.git
 
-or download zip and unzip the repository into a directory of your choice.
+and unzip into a directory of your choice. 
 
 ### Dependencies ###
 
