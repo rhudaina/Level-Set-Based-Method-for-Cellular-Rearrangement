@@ -4,7 +4,7 @@ This code implements our proposed level set-based algorithm for realizing cellul
 
 ## Installation ##
 
-Download the latest release from [Zenodo](https://doi.org/10.5281/zenodo.5834828) or [Github](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement) and unzip into a directory of your choice. 
+Download the latest release from [Zenodo (doi:10.5281/zenodo.5834828)](https://doi.org/10.5281/zenodo.5834828) or from [Github (https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement)](https://github.com/rhudaina/Level-Set-Based-Method-for-Cellular-Rearrangement) and unzip into a directory of your choice. 
 
 ### Dependencies ###
 
