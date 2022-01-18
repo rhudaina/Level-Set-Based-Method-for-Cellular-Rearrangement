@@ -15,7 +15,7 @@ This source code was created on macOS Version 10.15.5 and requires the following
 
 Typical install time on a "normal" desktop computer should be around 5-10 minutes.
 
-The source code have been tested to work on Windows via [Cygwin](https://www.cygwin.com) and a Unix-based device, in particular, on Ubuntu 18.04 with MATLAB 2019a.
+The source code have been tested to work on Windows via [Cygwin](https://www.cygwin.com) and on a Unix-based device, in particular, Ubuntu 18.04 with MATLAB 2019a.
 
 ## Getting Started ##
 
