@@ -13,7 +13,9 @@ This source code was created on macOS Version 10.15.5 and requires the following
 * [FFTW](http://www.fftw.org/download.html) 3.3.9
 * [MATLAB](https://www.mathworks.com/products/get-matlab.html) R2020b
 
-These dependencies can also be installed on a Windows-based and Unix-based device. Typical install time on a "normal" desktop computer should be around 5-10 minutes.
+Typical install time on a "normal" desktop computer should be around 5-10 minutes.
+
+The source code have been tested on a Unix-based device, in particular, Ubuntu 18.04. Although we have yet to test it on Windows-based device, in principle, this should work provided the dependencies are properly installed.
 
 ## Getting Started ##
 
