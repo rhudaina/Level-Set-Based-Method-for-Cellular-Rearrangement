@@ -43,7 +43,7 @@ int main(int argc, char const *argv[]) {
     strcpy(initconfigPath, argv[2]);
     int nbNodes = nbNodesByRow*nbNodesByCol;
     if (dim==3) nbNodes *= nbNodesByRow;
-    load_initconfig(initconfigPath, nbNodes, nbCells, nbTypes, &typeOfCell, &isAssigned, &volume, &phi);
+    load_initconfig(initconfigPath, nbNodes, nbCells, &typeOfCell, &isAssigned, &volume, &phi);
 
     // Build cell-by-cell sigma matrix only when constant throughout evolution
     double *sigma = (double *) malloc(nbCells*nbCells*sizeof(double));
@@ -99,13 +99,13 @@ int main(int argc, char const *argv[]) {
         }
 
         // Compute convolution using FFTW
-        convolution(l*nbSteps+k+1, dim, nbNodes, nbNodesByRow, nbNodesByCol, nbCmplxNodes, nbCells, normCoef, PI, freqStepX, freqStepY, dt, sigma, phi, ft_phi, forward, backward);
+        convolution(dim, nbNodes, nbNodesByRow, nbNodesByCol, nbCmplxNodes, nbCells, normCoef, PI, freqStepX, freqStepY, dt, sigma, phi, ft_phi, forward, backward);
 
         // Preserve cell connectivity through local auctions
-        preserve_connectivity(l*nbSteps+k+1, dim, nbNodes, nbCells, nbNodesByRow, nbNodesByCol, nbLocalNodes, isAssigned, phi);
+        preserve_connectivity(dim, nbNodes, nbCells, nbNodesByRow, nbNodesByCol, nbLocalNodes, isAssigned, phi);
 
         // Preserve cell volumes using auction dynamics
-        preserve_cellvolume(l*nbSteps+k+1, nbCells, nbNodes, nbNodesByCol, maxCellvolume, heapLen, bidkeyHeap, isAssigned, currentVolume, volume, alpha, epsilon0, epsilonBar, phi, price, bid);
+        preserve_cellvolume(nbCells, nbNodes, maxCellvolume, heapLen, bidkeyHeap, isAssigned, currentVolume, volume, alpha, epsilon0, epsilonBar, phi, price, bid);
         //
         // Export solution to output
         export_solution(l*nbSteps+k+1, nbNodes, isAssigned);
